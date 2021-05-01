@@ -1,11 +1,32 @@
+# Author
+author:
+  name:         Leonard Hartono
+  url:          https://leonardhartono.com
+  email:        leonardhartono@outlook.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Theme
 remote_theme: chesterhow/tale
 
 permalink:    /:year-:month-:day/:title
 paginate:     5
 
+# Gems
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme
 
+# Excludes
+# exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
-disqus: jekyll-tale
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
