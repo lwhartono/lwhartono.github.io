@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: about
 title: "About"
-author: "Leo"
+author: "Leonard Hartono"
 permalink: /about/
 ---
 
