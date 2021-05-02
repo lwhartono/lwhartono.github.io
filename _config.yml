@@ -4,6 +4,9 @@ author:
   url:          https://leonardhartono.com
   email:        leonardhartono@outlook.com
 
+# Site details
+title:          leonardhartono
+
 # Build settings
 markdown:       kramdown
 include:
@@ -26,7 +29,7 @@ plugins:
   - jekyll-remote-theme
 
 # Excludes
-# exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
