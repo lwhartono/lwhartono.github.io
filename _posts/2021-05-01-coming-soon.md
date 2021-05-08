@@ -1,5 +1,8 @@
 ---
-layout: post
-author: Leonard Hartono
+title: Coming Soon...hopefully
+
+summary: I wanted to start writing more regularly, hopefully I follow through with it
+
 ---
-Working on my first post. It'll come out soon...hopefully..
+
+Lorem ipsum dolom I think that's how it goes
