@@ -9,7 +9,7 @@ This post is a showcase of what Holo Alfa looks like, and a reference guide for 
 
 You can write posts using the familiar [Markdown](http://daringfireball.net/projects/markdown/) syntax, plus some extra's from [GFM](https://help.github.com/articles/github-flavored-markdown/). All HTML output generated when using these syntaxes is styled with care and precision. Generous whitespace is used to give your content some breathing room.
 
-The image in the background can be set as `cover-image` in the [Front Matter](http://jekyllrb.com/docs/frontmatter/) of a post or page. The "fade to white" will be created automatically. Cover images are stored in `/img/covers/`.
+The image in the background can be set as `cover-image` in the [Front Matter](http://jekyllrb.com/docs/frontmatter/) of a post or page. The "fade to white" will be created automatically. Cover images are stored in `/assets/img/covers/`.
 
 ## Look, a H2 heading! ##
 
@@ -42,7 +42,7 @@ Use Markdown's `>` to create a quote.
 
 Large enough images will be wider than the page.
 
-![Forest]({{ site.baseurl }}/img/forest.jpg) <small>Source: [imgur.com](http://imgur.com/KTfsVZL)</small>
+![Forest]({{ site.baseurl }}/assets/img/forest.jpg) <small>Source: [imgur.com](http://imgur.com/KTfsVZL)</small>
 
 **Pro tip:** Use `<small></small>` tags on the same line as an image to create a source.
 

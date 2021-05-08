@@ -330,10 +330,9 @@ input[type="submit"] {
 }
 footer {
   font-size: 0.8em;
-  color: rgba({{ site.text-color }},0.5);
+  color: rgba({{ site.text-color }},.5);
   text-align: center;
-  background-color: rgba({{ site.text-color }}, 0.05);
-  border-top: 1px solid rgba({{ site.text-color }}, 0.1);
+  /* border-top: 1px solid rgba({{ site.text-color }}, 0.1); */
   height: 140px;
 }
 footer a {

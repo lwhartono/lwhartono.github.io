@@ -1,5 +1,5 @@
 <footer>
   <div class="inner">
-    <p>{{ site.footer-text }}</p>
+    <p>&copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}<br>{{ site.footer-text }}</p>
   </div>
 </footer>

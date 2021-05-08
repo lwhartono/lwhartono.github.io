@@ -1,27 +1,27 @@
 
 # The name of your website.
-name: Holo Alfa
+name: leonardhartono
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta: Some of leonard hartono's thoughts and things I've learned along the way
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/stijnvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: So I will be adding my thoughts and things I've learned along the way here, hopefully it will also be useful to someone other than myself
 
 author:
-  name: Dr. Jekyll # Change this!
+  name: Leonard Hartono # Change this!
 
   # Necessary for contact page
-  email: your@email.com # Change this!
+  email: leonardhartono@outlook.com # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
-  info:
+  info: 
 
-url: http://steinvc.github.io
-baseurl: "/holo-alfa"
+url: ""
+baseurl: ""
 
 # language attribute in <html> element.
 lang: en
@@ -39,19 +39,19 @@ display-social-icons: false
 # If you want social links to open in a new tab, set this as true
 social-icons-open-newtab: true
 
-footer-text: This is the footer.<br><a href="http://stijnvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://stijnvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: <a href="http://stijnvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://stijnvc.github.io/holo-alfa/">Stijn</a>.
 
 # Preferably 64px in height. Leave empty = disable.
-logo-image: # /img/logo.png
+logo-image: # /assets/img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#00f0ff"
+theme-color-attr: 160, 160, 160
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#00f0ff"
+ms-tile-color: 160, 160, 160
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 240, 255 # Original: 0, 240, 255
+theme-color: 160, 160, 160 # Original: 0, 240, 255
 
 # Text color used throughout the theme. Format: R, G, B.
 text-color: 0, 0, 0 # Original: 0, 0, 0

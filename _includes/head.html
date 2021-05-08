@@ -12,12 +12,11 @@
 
 <!-- icons -->
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
-<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-96x96.png" sizes="96x96">
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-16x16.png" sizes="16x16">
 <link rel="icon" type="image/png" href="{{ site.baseurl }}/android-chrome-192x192.png" sizes="192x192">
 <meta name="theme-color" content="{{ site.theme-color-attr }}">
 <meta name="msapplication-TileColor" content="{{ site.ms-tile-color }}">
-<meta name="msapplication-TileImage" content="{{ site.baseurl }}/mstile-310x310.png">
 <!-- /icons -->
 
 <!-- og tags -->
@@ -25,12 +24,12 @@
 <meta property="og:title" content="{% if page.title %}{{ page.title }} • {{ site.name }}{% else %}{{ site.name }}{% endif %}">
 <meta property="og:locale" content="{{ site.lang }}">
 {% if page.og-image %}
-  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/{{ page.og-image }}">
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.og-image }}">
 {% else %}
   {% if page.cover-image %}
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/{{ page.cover-image }}">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/{{ page.cover-image }}">
   {% else %}
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/img/og-image.jpg">
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/og-image.jpg">
   {% endif %}
 {% endif %}
 <meta property="og:type" content="website">
@@ -44,8 +43,8 @@
 <!-- /og tags -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/modernizr.js"></script>
-<script src="{{ site.baseurl }}/js/fitvids.js"></script>
+<script src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
+<script src="{{ site.baseurl }}/assets/js/fitvids.js"></script>
 <link href='//fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:600,900|Crimson+Text:700italic,600,600italic,400,700,400italic' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css">
 <link rel="stylesheet" href="{{ site.baseurl }}/css/pygments.css">
